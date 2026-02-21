@@ -1,0 +1,40 @@
+# ── C++ Backend ──
+backend-cpp/build/
+backend-cpp/CMakeUserPresets.json
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.lib
+*.exp
+
+# ── Conan ──
+CMakeUserPresets.json
+conanbuildinfo.*
+conaninfo.txt
+graph_info.json
+.conan2/
+
+# ── Frontend ──
+frontend-next/node_modules/
+frontend-next/.next/
+frontend-next/out/
+
+# ── IDE / OS ──
+.vs/
+.vscode/settings.json
+.idea/
+*.suo
+*.user
+*.sln.docstates
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ── Misc ──
+*.log
+*.tmp
