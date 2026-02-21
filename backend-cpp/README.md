@@ -4,9 +4,10 @@ Real-time physics engine for a rotating automotive component, broadcasting state
 
 ## Prerequisites
 
-- **Visual Studio 2022** with C++ Desktop workload
+- C++ development environment
 - **CMake 3.21+** (included with VS2022)
 - **Conan 2** package manager ([https://conan.io](https://conan.io))
+- (optional) **Visual Studio 2022** with C++ Desktop workload
 
 ## Conan Setup (one-time)
 

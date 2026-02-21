@@ -127,10 +127,11 @@ digital_twin/
 
 ### Prerequisites
 
-- **Visual Studio 2022** with C++ Desktop workload
+- C++ development environment
 - **CMake 3.21+** (bundled with VS2022)
 - **Conan 2** — `pip install conan`
 - **Node.js 18+** LTS
+- (optional) **Visual Studio 2022** with C++ Desktop workload
 
 ### 1. Backend
 
@@ -236,23 +237,6 @@ Force equations (inertial only, no gas pressure):
 - **Tangential force**: `F_t = F_rod · sin(θ + φ)`
 - **Torque**: `T = F_t · R`
 - **Side thrust**: `F_side = F_piston · tan φ`
-
----
-
-## VS Code / Cursor Debugging (C++ Backend)
-
-1. Open `backend-cpp/` in VS Code
-2. Install **CMake Tools** extension
-3. `Ctrl+Shift+P` → "CMake: Select Configure Preset" → `conan-debug`
-4. `Ctrl+Shift+P` → "CMake: Build"
-5. `Ctrl+Shift+P` → "CMake: Debug" — launches with full debug symbols, breakpoints, stepping
-
-For Debug builds, first run:
-```powershell
-conan install . --build=missing -s build_type=Debug
-```
-
----
 
 ## Troubleshooting
 
